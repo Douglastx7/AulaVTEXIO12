@@ -1,0 +1,16 @@
+{
+    "flex-layout.row#top-bar": {
+        "props": { 
+            "blockClass": "wrapper__top-bar"
+        },
+        "children": [
+            "rich-text#email-text"
+        ]
+    },
+    "rich-text#email-text": {
+        "props": {
+            "blockClass": "text__top-bar",
+            "text": "![email](https://via.placeholder.com/14x16) loremipsum@gmail.com"
+        }
+    }
+}
