@@ -1,0 +1,15 @@
+.paragraph--text__top-bar { 
+    font-size: 16px;
+    color: #F1F1F1;
+}
+
+.paragraph--email__top-bar,
+.paragraph--text__top-bar { 
+  margin-right: 30px;
+}
+
+.image--cart__top-bar {
+    margin-left: 30px;
+
+}
+

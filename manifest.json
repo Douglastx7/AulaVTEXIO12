@@ -6,8 +6,8 @@
     "styles": "2.x",
     "store": "0.x",
     "sitemap": "0.x",
-    "assets": "0.x",
-    "docs": "0.x"
+    "docs": "0.x",
+    "assets": "0.x"
   },
   "mustUpdateAt": "2018-09-05",
   "scripts": {
@@ -65,6 +65,5 @@
     "vtex.condition-layout": "2.x",
     "vtex.css-handles": "1.x"
   },
- 
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
