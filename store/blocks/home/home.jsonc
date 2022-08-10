@@ -1,6 +1,11 @@
 {
   "store.home": {
     "blocks": [
+
+      "responsive-layout.desktop#home",
+      "responsive-layout.tablet#home",
+      "responsive-layout.phone#home",
+
       "list-context.image-list#demo",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
@@ -15,6 +20,8 @@
     ]
   },
 
+
+  
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
     "props": {

@@ -63,7 +63,8 @@
     "rich-text#cart-text": {
         "props": {
             "blockClass": ["text__top-bar","cart__top-bar"],
-            "text": "cart ![cart](assets/imgs/top-bar/carrinho.png)"
+            "text": "![cart](assets/imgs/top-bar/carrinho.png)"
         }
     }
 }
+
