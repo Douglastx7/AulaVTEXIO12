@@ -1,0 +1,68 @@
+{
+    "slider-layout-group#conexao": {
+        "children": [
+            "slider-layout#slider-text01",
+            "slider-layout#slider-text02"
+        ]
+    },
+    "slider-layout#slider-text01": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 2,
+                "tablet": 2,
+                "phone": 1
+            },
+            "autoplay": {
+                "timeout": 2000
+            },
+            "infinite": true,
+            "blockClass": "slider-text01"
+        },
+        "children": [
+            "rich-text#01",
+            "rich-text#02",
+            "rich-text#03",
+            "rich-text#04"
+        ]
+    },
+    "slider-layout#slider-text02": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 2,
+                "tablet": 2,
+                "phone": 1
+            },
+            "autoplay": {
+                "timeout": 2000
+            },
+            "infinite": true,
+            "blockClass": "slider-text01"
+        },
+        "children": [
+            "rich-text#04",
+            "rich-text#03",
+            "rich-text#02",
+            "rich-text#01"
+        ]
+    },
+    "rich-text#01": {
+        "props": {
+            "text": "# texto 01"
+        }
+    },
+    "rich-text#02": {
+        "props": {
+            "text": "# texto 02"
+        }
+    },
+    "rich-text#03": {
+        "props": {
+            "text": "# texto 03"
+        }
+    },
+    "rich-text#04": {
+        "props": {
+            "text": "# texto 04"
+        }
+    }
+}

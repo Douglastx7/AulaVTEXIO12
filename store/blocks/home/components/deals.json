@@ -1,16 +1,34 @@
 {
   "flex-layout.row#deals": {
     "children": [
-      "flex-layout.col#deals1",
-      "flex-layout.col#deals2",
-      "flex-layout.col#deals3",
-      "flex-layout.col#deals4"
+      "slider-layout#deals-slider"
     ],
     "props": {
       "blockClass": "deals"
     }
   },
-
+  "slider-layout#deals-slider": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 2000
+      },
+      "showPaginationDots": "never",
+      "showNavigationArrows": "desktopOnly",
+      "infinite": false,
+      "blockClass": "slider-text01"
+    },
+    "children": [
+      "flex-layout.col#deals1",
+      "flex-layout.col#deals2",
+      "flex-layout.col#deals3",
+      "flex-layout.col#deals4"
+    ]
+  },
   "flex-layout.col#deals1": {
     "children": [
       "image#deal1",
